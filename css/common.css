@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
 
 :root{
-    --accent-color: rgb(50,206,211);
     --main-color: black;
+    --accent-color:rgb(50,206,211);
     font-family: 'DotGothic16', sans-serif;
 }
 
-*{
+*{ 
     margin: 0;
     padding: 0;
 }

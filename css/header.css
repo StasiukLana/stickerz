@@ -12,9 +12,23 @@ background-color: var(--accent-color);
 .header__nav{
     color: var(--main-color);
 }
+.header__nav-menu{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
 
 .header__nav-menu-item{
     color: var(--main-color);
     text-transform:uppercase;
-    
+    text-decoration: none;
+}
+.header__nav-menu-item:hover{
+    font-weight:bold;
+}
+@media(min-width:600px){
+    .header__nav{
+        display: flex;
+    }
+
 }
