@@ -1,0 +1,6 @@
+.header__nav__logo{
+    color: var(--main-color);
+    font-size: 3.5rem;
+    text-align:center;
+    text-transform: uppercase;
+}
