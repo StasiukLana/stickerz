@@ -1,6 +1,20 @@
+.header__nav{
+background-color: var(--accent-color);
+}
+
 .header__nav__logo{
     color: var(--main-color);
     font-size: 3.5rem;
     text-align:center;
     text-transform: uppercase;
+}
+
+.header__nav{
+    color: var(--main-color);
+}
+
+.header__nav-menu-item{
+    color: var(--main-color);
+    text-transform:uppercase;
+    
 }
