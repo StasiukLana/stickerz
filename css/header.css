@@ -30,5 +30,12 @@ background-color: var(--accent-color);
     .header__nav{
         display: flex;
     }
-
 }
+
+.header__nav-menu{
+    align-items: center;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
